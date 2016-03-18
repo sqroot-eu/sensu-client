@@ -1,7 +1,7 @@
 {
   "checks":{
     "memory-usage":{
-      "command":"check-memory-percent.rb -w 85 -c 95",
+      "command":"check-memory-percent.rb -w 80 -c 90",
       "standalone":true,
       "occurrences":3,
       "publish":true,
