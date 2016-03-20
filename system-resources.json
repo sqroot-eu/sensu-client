@@ -8,6 +8,13 @@
       "interval":60,
       "ttl": 130
     },
+    "cpu-usage":{
+      "command":"check-cpu.rb -w 80 -c 95",
+      "standalone":true,
+      "occurrences":3,
+      "publish":true,
+      "interval":30
+    },
     "disk-usage":{
       "command":"check-disk-usage.rb -w 70 -c 85 -K 85 -W 70",
       "standalone":true,
